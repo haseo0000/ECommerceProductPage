@@ -78,11 +78,9 @@ function Modal({ isShow = false, carts }: Props) {
                     </div>
                   ))}
                 </div>
-                <div>
-                  <button type="button" className={styles.checkout_button}>
-                    Checkout
-                  </button>
-                </div>
+                <button type="button" className={styles.checkout_button}>
+                  Checkout
+                </button>
               </div>
             )}
           </div>

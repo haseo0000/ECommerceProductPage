@@ -1,9 +1,10 @@
 .modal_layout {
-  position: absolute;
+  position: fixed;
   top: 5.5rem;
   width: 100%;
   padding-inline: 0.5rem;
   z-index: 80;
+  top: 10;
 }
 
 .content_layout {
