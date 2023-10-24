@@ -1,0 +1,85 @@
+.navbar_layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+.navbar_layout > div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logoIcon {
+  width: 150px;
+  cursor: pointer;
+}
+
+.menuIcon {
+  padding-top: 0.1rem;
+  width: 15px;
+  cursor: pointer;
+}
+
+.avartarIcon {
+  width: 30px;
+}
+
+.cartIcon {
+  cursor: pointer;
+  position: relative;
+  width: 20px;
+}
+
+.amountCart {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+
+  width: 20px;
+  border-radius: 20px;
+  background: hsl(var(--primary-clr));
+  display: flex;
+  justify-content: center;
+  font-size: 0.65em;
+  color: #fff;
+}
+
+.list_nav_layout {
+  display: none;
+}
+
+.list_nav_layout > * {
+  color: gray;
+  cursor: pointer;
+  position: relative;
+}
+
+@media (min-width: 960px) {
+  .navbar_layout {
+    border-bottom: 1px solid black;
+    align-items: center;
+  }
+
+  .menuIcon {
+    display: none;
+  }
+
+  .avartarIcon {
+    width: 50px;
+  }
+
+  .list_nav_layout {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .list_nav_layout > *.active::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: hsl(var(--primary-clr));
+    position: absolute;
+    bottom: -42px;
+    left: 0;
+  }
+}
