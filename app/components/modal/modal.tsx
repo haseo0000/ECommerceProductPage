@@ -15,7 +15,7 @@ function ItemImage() {
     <div
       style={{
         width: "50px",
-        height: "50px",
+        aspectRatio: "1",
         background: "gray",
         borderRadius: "5px",
       }}></div>
@@ -51,7 +51,7 @@ function Modal({ isShow = false, carts }: Props) {
               </div>
             ) : (
               <div className={styles.items_layout}>
-                <div style={{ maxHeight: "200px", overflow: "auto" }}>
+                <div style={{ height: "200px", overflow: "auto" }}>
                   {carts.map((cart) => (
                     <div key={cart.id} className={styles.items_details}>
                       <div style={{ display: "flex", gap: "1rem" }}>
