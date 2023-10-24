@@ -15,12 +15,10 @@ function ItemImage() {
     <div
       style={{
         width: "50px",
-        aspectRatio: "1",
+        height: "50px",
         background: "gray",
         borderRadius: "5px",
-      }}>
-      image
-    </div>
+      }}></div>
   );
 }
 
@@ -54,7 +52,7 @@ function Modal({ isShow = false, carts }: Props) {
             ) : (
               <div className={styles.items_layout}>
                 <div style={{ height: "200px", overflow: "auto" }}>
-                  {/* {carts.map((cart) => (
+                  {carts.map((cart) => (
                     <div key={cart.id} className={styles.items_details}>
                       <div style={{ display: "flex", gap: "1rem" }}>
                         <ItemImage />
@@ -76,8 +74,7 @@ function Modal({ isShow = false, carts }: Props) {
                         />
                       </div>
                     </div>
-                  ))} */}
-                  something
+                  ))}
                 </div>
                 <button type="button" className={styles.checkout_button}>
                   Checkout

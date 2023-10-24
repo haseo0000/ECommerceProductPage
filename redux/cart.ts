@@ -34,22 +34,22 @@ const initialState: CartsState = {
       totalPrice: 300 * 2,
       amount: 2,
     },
-    {
-      id: 4,
-      image: "",
-      name: "mock up product",
-      price: 300,
-      totalPrice: 300 * 2,
-      amount: 2,
-    },
-    {
-      id: 5,
-      image: "",
-      name: "mock up product",
-      price: 300,
-      totalPrice: 300 * 2,
-      amount: 2,
-    },
+    // {
+    //   id: 4,
+    //   image: "",
+    //   name: "mock up product",
+    //   price: 300,
+    //   totalPrice: 300 * 2,
+    //   amount: 2,
+    // },
+    // {
+    //   id: 5,
+    //   image: "",
+    //   name: "mock up product",
+    //   price: 300,
+    //   totalPrice: 300 * 2,
+    //   amount: 2,
+    // },
   ],
 };
 
