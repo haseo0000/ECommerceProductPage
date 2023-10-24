@@ -38,6 +38,11 @@
   gap: 1.5rem;
 }
 
+.inner_items_layout {
+  max-height: 200px;
+  overflow: auto;
+}
+
 .checkout_button {
   padding-block: 1rem;
   color: #fff;

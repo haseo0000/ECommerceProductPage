@@ -51,7 +51,7 @@ function Modal({ isShow = false, carts }: Props) {
               </div>
             ) : (
               <div className={styles.items_layout}>
-                <div style={{ height: "200px", overflow: "auto" }}>
+                <div className={styles.inner_items_layout}>
                   {carts.map((cart) => (
                     <div key={cart.id} className={styles.items_details}>
                       <div style={{ display: "flex", gap: "1rem" }}>
