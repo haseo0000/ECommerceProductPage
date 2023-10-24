@@ -39,7 +39,7 @@
 }
 
 .inner_items_layout {
-  max-height: 200px;
+  height: 200px;
   overflow: auto;
 }
 
