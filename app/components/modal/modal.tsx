@@ -53,7 +53,7 @@ function Modal({ isShow = false, carts }: Props) {
               </div>
             ) : (
               <div className={styles.items_layout}>
-                <div style={{ maxHeight: "200px", overflow: "auto" }}>
+                {/* <div style={{ maxHeight: "200px", overflow: "auto" }}>
                   {carts.map((cart) => (
                     <div key={cart.id} className={styles.items_details}>
                       <div style={{ display: "flex", gap: "1rem" }}>
@@ -77,7 +77,7 @@ function Modal({ isShow = false, carts }: Props) {
                       </div>
                     </div>
                   ))}
-                </div>
+                </div> */}
                 <button type="button" className={styles.checkout_button}>
                   Checkout
                 </button>
