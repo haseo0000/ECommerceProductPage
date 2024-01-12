@@ -1,7 +1,9 @@
-## Practice
+## Frontend Mentor - E-commerce product page
 
-Practice Frontend from web Frontend Mentor
+Practice UILayout responsive
 
-## STACT USED
+# USING
 
 REACT + NEXTJS + REDUX(Toolkit) + react-image-gallery + Typescript
+
+[DEMO](https://e-commerce-product-page-nu-wine.vercel.app/)
