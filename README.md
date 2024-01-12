@@ -1,8 +1,8 @@
-## Frontend Mentor - E-commerce product page
+# Frontend Mentor - E-commerce product page
 
 Practice UILayout responsive
 
-# USING
+## USING
 
 REACT + NEXTJS + REDUX(Toolkit) + react-image-gallery + Typescript
 
